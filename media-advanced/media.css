@@ -1,0 +1,25 @@
+.box {
+  border-radius: 7px;
+  box-shadow: 10px 10px;
+  float: left;
+  transform: rotate(-20deg);
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.link {
+  border-radius: 7px;
+  border: 0px;
+  align-items: center;
+}
+
+.map-container {
+  background-color: blueviolet;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

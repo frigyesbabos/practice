@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <button>Button</button>
+    <br />
+    <hr />
+    <label>
+      Tartalom:
+      <br />
+      <input type="text" placeholder="select something" size="100" />
+    </label>
+    <br />
+    <select name="asdasd" id="asdads">
+      <option value="ASASDASD">ASDASD</option>
+      <option value="ASASDASD">1234</option>
+      <option value="ASASDASD">libibibibi</option>
+    </select>
+    <br />
+    <textarea name="" id="" cols="30" rows="10">
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem pariatur consectetur consequuntur voluptatum error ratione quam cum, animi accusamus, possimus molestiae. Culpa assumenda eius mollitia facere alias cum voluptatibus rem.</textarea
+    >
+    <button>Post Comment</button>
+
+    <br />
+    <hr />
+    <fieldset>
+      <legend>Bevitel</legend>
+      <label
+        >Username
+        <input type="text" name="username" />
+      </label>
+      <label>Password <input type="password" name="password" /> </label><br />
+      <hr />
+      <label
+        >Handball:
+        <input type="checkbox" name="handball" />
+      </label>
+      <br />
+      <label
+        >Basketball:
+        <input type="checkbox" name="basketball" />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Favorite Sports:</legend>
+      <label
+        >Football: <input type="checkbox" name="football" checked /><br />
+      </label>
+      <label>Handball: <input type="checkbox" name="handball" /><br /> </label>
+      <label
+        >Basketball: <input type="checkbox" name="basketball" checked /><br />
+      </label>
+      <label>Tenis: <input type="checkbox" name="tenis" /><br /> </label>
+      <label
+        >Horse Riding:
+        <input type="checkbox" name="horseriding" checked /><br />
+      </label>
+    </fieldset>
+    <hr />
+    <fieldset>
+      <legend>Choose a sport</legend>
+      <label>Football <input type="radio" name="sport" /><br /> </label>
+      <label>Handball: <input type="radio" name="sport" /><br /> </label>
+      <label
+        >Basketball: <input type="radio" name="sport" checked /><br />
+      </label>
+      <label>Tenis: <input type="radio" name="sport" /><br /> </label>
+      <label
+        >Horse Riding: <input type="radio" name="sport" /><br />
+        <input type="hidden" name="productidentifier" value="1221" />
+      </label>
+      <label>
+        Upload files:
+        <input type="file" />
+      </label>
+      <form
+        method="POST"
+        action="asd.com/index.php"
+        enctype="multipart/form-data"
+      ></form>
+    </fieldset>
+    <hr />
+    <button type="button" value="press me">Press this button</button>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+    <hr />
+    <br />
+    <form>
+      <div>
+        <label>Username</label>
+        <input type="text" size="50" placeholder="Enter username..." />
+      </div>
+      <div>
+        <label>Password</label>
+        <input type="text" size="50" placeholder="Enter password... " />
+      </div>
+      <button type="reset">Reset Fields!</button>
+    </form>
+    <hr />
+    <br />
+    <textarea name="Hístory" id="name" cols="35" rows="4" readonly>
+This is my history here you can see what happened to me in the past!
+    </textarea>
+    <br />
+    <hr />
+    <select name="Sport">
+      <option value="">1</option>
+      <option value="">2</option>
+      <option value="">3</option>
+      <option value="">4</option>
+    </select>
+    <br />
+    <hr />
+    <form>
+      <input list="sport" />
+      <datalist id="sport">
+        <option value="football"></option>
+        <option value="handball"></option>
+        <option value="basketball"></option>
+        <option value="tenis"></option>
+      </datalist>
+      <input type="month" />
+      <br />
+      <input type="range" />
+      <br />
+      <input type="tel" />
+      <br />
+      <input type="time" />
+      <br />
+      <input type="url" />
+      <br />
+      <input type="week" />
+    </form>
+
+    <form>
+      <fieldset>
+        <legend>Enter your Data!
+            <label>Username
+                <input type="text">
+            </label>
+            <label>Password
+                <input type="password">
+            </label>
+            <label>Age
+                <input type="number" name="age" min="18">
+            </label>
+        </legend>
+      </fieldset>
+    </form>
+  </body>
+</html>

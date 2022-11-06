@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+  font-family: "Courier New", Courier, monospace, cursive;
+  font-size: 3em;
+  margin: 0px;
+  padding: 10px;
+}
+
+h1:hover {
+  color: rgb(94, 182, 94);
+}
+
+p {
+  font-family: cursive, serif;
+  margin: 10px;
+  padding: 10px;
+}

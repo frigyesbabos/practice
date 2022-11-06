@@ -1,0 +1,13 @@
+fieldset {
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+input:valid {
+    background-color: lightgreen;
+}
+
+input:invalid {
+    background-color: red;
+}
